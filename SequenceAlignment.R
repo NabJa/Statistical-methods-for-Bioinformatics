@@ -1,8 +1,7 @@
 rm(list=ls())
-setwd("C:/Users/Anja/Desktop/R for Bioinf")
-library(seqinr)    #paket für Einlesen von FASTA
+library(seqinr)    #importing FASTA format
 #biocLite("Biostrings")
-library(Biostrings)   #Paket für alignemnts
+library(Biostrings)   #computes alignments
 
 
 leprae <- read.fasta(file = "Q9CD83.fasta")
