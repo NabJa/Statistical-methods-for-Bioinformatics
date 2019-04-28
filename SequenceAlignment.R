@@ -98,7 +98,3 @@ printPairwiseAlignment <- function(alignment, chunksize=60, returnlist=FALSE) #F
 }
 
 printPairwiseAlignment(globalAlignLepraeUlcerans, 60)
-  
-  
-  
-  
